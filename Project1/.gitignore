@@ -1,5 +1,6 @@
 *.iml
-.gradle
+.gradle/
+
 /local.properties
 /.idea/caches
 /.idea/libraries
@@ -7,9 +8,20 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+.idea/jarRepositories.xml
+.idea/gradle.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/.gitignore
+
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Generated files
+bin/
+gen/
+out/

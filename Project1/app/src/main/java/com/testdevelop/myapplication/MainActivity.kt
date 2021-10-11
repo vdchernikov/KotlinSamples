@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.lastinventor.Urbanote.core.MainTest2
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         // MainTest1().runTest1()
         // MainTest1().testSort()
         MainTest2(0).runTest1()
+
     }
 }
